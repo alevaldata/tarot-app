@@ -1,4 +1,4 @@
-function Tirada({ cartas }) {
+function Respuesta({ cartas }) {
   const nuevaTirada = cartas.sort(() => Math.random() - 0.5).slice(0, 3);
   const recuento = {};
   let resTirada;
@@ -21,22 +21,24 @@ function Tirada({ cartas }) {
 
   return (
     <>
-      <div className="cards-container">
+      <div className="cards-container" key={nuevaTirada.id}>
         {nuevaTirada.map((carta) => {
           return (
-            <div className="tarot-card" key={carta.id}>
+            <div className="tarot-card"  key={carta.id}>
               <h1>{carta.name}</h1>
               <img src={carta.imgUrl}></img>
-              <p>Significado: {carta.meaning}</p>
+              <p>{carta.meaning}</p>
             </div>
           );
         })}
       </div>
-      <p className="res-tirada">
-        La respuesta es <b>{resTirada}</b>
-      </p>
+      {cartas.length > 3 && (
+        <p className="res-tirada">
+          La respuesta es <b>{resTirada}</b>
+        </p>
+      )}
     </>
   );
 }
 
-export default Tirada;
+export default Respuesta;
