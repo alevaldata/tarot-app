@@ -1,0 +1,100 @@
+[
+    {
+        "id": "0",
+        "name":"El Loco",
+        "meaning":"El Loco representa nuevos comienzos y una aventura despreocupada. Aunque esta carta podría indicar insensatez, es más optimista en el sentido que habla de acciones puras y de liberarse de las limitaciones de tu vida presente. Es muy probable que se te vengan importantes decisiones que tomar, y la respuesta a tu pregunta es sí.",
+        "answer":"yes",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/el-loco.png"
+    },
+    {
+        "id": "1",
+        "name":"El Mago",
+        "meaning":"El Mago simboliza la acción y el poder en tu vida. Sus connotaciones positivas ilustran a alguien que es tiene una buena labia y es bueno en todos los aspectos de la comunicación. Esta carta te sugiere usar tu fuerza de voluntad para seguir adelante y tomar acción. La respuesta a tu pregunta es sí.",
+        "answer":"yes",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/el-mago.png"
+    },
+    {
+        "id": "2",
+        "name":"La Sacerdotisa",
+        "meaning":"La Sacerdotisa es una mujer intuitiva espiritualmente y llena de misterio, sabiduría y entendimiento. La presencia de esta carta en tu tirada viene de la mano con un viaje de autodescubrimiento. Ella representa las cosas que aún faltan descubrir en tu vida y por lo tanto la respuesta a tu pregunta no es clara.",
+        "answer":"maybe",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/la-sacerdotisa.png"
+    },
+    {
+        "id": "3",
+        "name":"La Emperatriz",
+        "meaning":"La Emperatriz representa todo lo que es maternal. Ella soluciona los problemas con amor, indica emprendimientos en negocios exitosos o que se vienen otras oportunidades positivas o productivas. Ella sugiera seguir adelante para alcanzar tu máximo potencial y la respuesta que estás buscando es sí.",
+        "answer":"yes",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/la-emperatriz.png"
+    },
+    {
+        "id": "4",
+        "name":"El Emperador",
+        "meaning":"El Emperador es la contraparte de la Emperatriz y simboliza solo lo que es paternal. Él es la estructura, el orden y la autoridad en tu vida. Mientras sigues adelante con tus emprendimientos, esta carta indica que la asertividad y la racionalidad te llevarán muy lejos. Dicho esto, tu respuesta es sí.",
+        "answer":"yes",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/el-emperador.png"
+    },
+    {
+        "id": "5",
+        "name":"El Papa",
+        "meaning":"El Papa es un símbolo de educación y tradición. Esta carta te sugiera buscar orientación o consejo espiritual en tu vida. También es un indicativo de conformidad y aprobación religiosa. Esta carta no tiene connotación negativa ni positiva. La única respuesta es tal vez.",
+        "answer":"yes",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/el-hierofante.png"
+    },
+    {
+        "id": "6",
+        "name":"La Muerte",
+        "meaning":"La carta de la Muerte muestra cierto cambio dramático que tundra que suceder para tener un nuevo comienzo. Con frecuencia se le asocia con algún tipo de pérdida, fracaso o destrucción. El tono general de esta carta es oscuro y nada bueno. Por lo tanto, tu respuesta es no.",
+        "answer":"no",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/muerte.png"
+    },
+    {
+        "id": "7",
+        "name":"El Diablo",
+        "meaning":"El Diablo habla de todas las cosas negativas. La ira, la violencia, la tentación, el miedo y la duda son sólo algunos de los terrores asociados con esta carta. Sugiere que estás atrapado quizás en una relación insana, una adicción o mentira. Sin duda alguna, esta carta te está diciendo que no.",
+        "answer":"no",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/el-diablo.png"
+    },
+    {
+        "id": "8",
+        "name":"La Torre",
+        "meaning":"La Torre habla de eventos inesperados y cambios que se aproximan en tu vida. Sin embargo, estos cambios son catastróficos, desastrosos y en general negativos. Puede estar relacionado a algún tipo de accidente, desastre o daño a otra área de tu vida. La respuesta que esta carta te da es no.",
+        "answer":"no",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/la-torre.png"
+    },
+    {
+        "id": "9",
+        "name":"La Luna",
+        "meaning":"La Luna es una carta confusa y engañosa. Sugiere la presencia de riesgos, secretos y cierto grado de confusión mental. Te advierte para que seas precavido en cualquier emprendimiento que estés llevando a cabo en tu vida. La respuesta que estás buscando es no.",
+        "answer":"no",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/la-luna.png"
+    },
+    {
+        "id": "10",
+        "name":"El Juicio",
+        "meaning":"La carta del Juicio representa cierto tipo de cambio o transformación, probablemente uno que ya ha ocurrido. Puede significar la presencia de un llamado espiritual o profesional y que deberás tomar las decisiones que te llevarán al éxito. La respuesta a tu pregunta es sí.",
+        "answer":"yes",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/juicio.png"
+    },
+    {
+        "id": "11",
+        "name":"El Colgado",
+        "meaning":"El Colgado sugiere una especie de metamorfosis a través de romper esquemas, dejarse ir o atravesar un periodo de transición. Aunque también puede significar renunciar a algo para ganar una perspectiva fresco. No tiene una connotación ni positiva ni negativa. La respuesta es tal vez.",
+        "answer":"maybe",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/el-colgado.png"
+    },
+    {
+        "id": "12",
+        "name":"La Justicia",
+        "meaning":"La carta de la Justicia habla del karma, la imparcialidad y el equilibrio en diferentes ámbitos de tu vida. No sugiere que el resultado será en tu beneficio o en tu contra, pero la responsabilidad, dignidad y la integridad estarán presentes. No hay una respuesta clara a tu pregunta.",
+        "answer":"maybe",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/justicia.png"
+    },
+    {
+        "id": "13",
+        "name":"El Ermitaño",
+        "meaning":"El Ermitaño es una carta que simboliza una búsqueda de iluminación spiritual. La introspección solitaria y contemplación también están asociadas con el Ermitaño. Tal vez se necesita que hagas un examen de conciencia y reflexión sobre ti mismo. Por lo tanto, la respuesta a tu pregunta es tal vez.",
+        "answer":"maybe",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/el-ermitano.png"
+    }
+]

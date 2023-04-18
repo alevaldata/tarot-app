@@ -1,0 +1,55 @@
+body {
+  background-color: slategrey;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
+
+.cards-container {
+  background: radial-gradient(black, transparent 60%);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2%;
+  padding: 0 -10px;
+  width: 80%;
+}
+
+.tarot-card {
+  padding: 0 10px;
+  width: 16%;
+  border-radius: 10px;
+  background: linear-gradient(darkred 80%, black);
+  color: beige;
+}
+
+.tarot-card h1 {
+  font-size: 1.2rem;
+}
+
+.tarot-card p {
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.tarot-card img {
+  width: 100%;
+}
+
+.res-tirada {
+  font-size: x-large;
+  border-radius: 5px;
+  background-color: bisque;
+  width: fit-content;
+  margin: 1% auto;
+  padding: 15px;
+}
+
+button {
+  background-color: yellow;
+  border: 0.5px solid darkkhaki;
+  font-size: medium;
+  border-radius: 3px;
+  padding: 5px;
+  cursor: pointer;
+}
