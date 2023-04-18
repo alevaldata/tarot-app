@@ -24,7 +24,7 @@ function Respuesta({ cartas }) {
       <div className="cards-container" key={nuevaTirada.id}>
         {nuevaTirada.map((carta) => {
           return (
-            <div className="tarot-card"  key={carta.id}>
+            <div className="tarot-card" key={carta.id}>
               <h1>{carta.name}</h1>
               <img src={carta.imgUrl}></img>
               <p>{carta.meaning}</p>

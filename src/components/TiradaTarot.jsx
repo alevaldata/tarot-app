@@ -1,14 +1,16 @@
 import { useState } from "react";
 import Respuesta from "./Respuesta";
 
+const dorso_img_url = "https://lainfo.es/tarot-si-no/dorso-carta.jpg";
+
 function TiradaTarot() {
   const [cartas, setCartas] = useState([
-    { id: "0", imgUrl: "https://lainfo.es/tarot-si-no/dorso-carta.jpg" },
-    { id: "1", imgUrl: "https://lainfo.es/tarot-si-no/dorso-carta.jpg" },
-    { id: "2", imgUrl: "https://lainfo.es/tarot-si-no/dorso-carta.jpg" },
+    { id: "0", imgUrl: dorso_img_url },
+    { id: "1", imgUrl: dorso_img_url },
+    { id: "2", imgUrl: dorso_img_url },
   ]);
 
-  /* para volver a tirar */
+  /* traer datos de cartas para tirar */
   function handleClick() {
     fetch("src/data/tarot-cards.json")
       .then((res) => res.json())
