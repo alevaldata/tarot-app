@@ -1,11 +1,11 @@
 import React from 'react'
-import TarotCards from './components/TarotCards'
+import TiradaTarot from './components/TiradaTarot'
 import "./App.css";
 
 
 function App() {
   return (
-    <TarotCards/>
+    <TiradaTarot/>
   )
 }
 
