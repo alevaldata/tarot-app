@@ -22,8 +22,8 @@ function TiradaTarot() {
 
   return (
     <main>
-      <Respuesta cartas={cartas} />
       <button onClick={handleClick}>Tirar cartas</button>
+      <Respuesta cartas={cartas} />
     </main>
   );
 }

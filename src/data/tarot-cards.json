@@ -96,5 +96,61 @@
         "meaning":"El Ermitaño es una carta que simboliza una búsqueda de iluminación spiritual. La introspección solitaria y contemplación también están asociadas con el Ermitaño. Tal vez se necesita que hagas un examen de conciencia y reflexión sobre ti mismo. Por lo tanto, la respuesta a tu pregunta es tal vez.",
         "answer":"maybe",
         "imgUrl":"https://www.trustedtarot.com/img/cards/es/el-ermitano.png"
+    },
+    {
+        "id": "14",
+        "name":"Los Amantes",
+        "meaning":"Los Amantes sugieren que te encuentras en una encrucijada en algún aspecto de tu vida. Aunque esta carta simboliza las relaciones, el amor y la unión, también puede estar revelando una alianza positiva en los negocios o que estás formando un equipo para avanzar en tu vida. La respuesta a tu pregunta es sí.",
+        "answer":"yes",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/los-amantes.png"
+    },
+    {
+        "id": "15",
+        "name":"El Carro",
+        "meaning":"El Carro revela algún tipo de viaje. Hay una connotación positiva y este viaje probablemente será un tipo de progresión. También puede ser el éxito por el que has estado trabajando. La confianza, dirección y victoria mostradas por esta tarjeta indican que la respuesta es sí.",
+        "answer":"yes",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/el-carro.png"
+    },
+    {
+        "id": "16",
+        "name":"La Fuerza",
+        "meaning":"La carta de La Fuerza muestra una presencia de seguridad en sí mismo y confianza al enfrentar los problemas en tu vida. Sugiere que eres una persona que disfruta del poder pero que tiene la capacidad de ejercitar el autocontrol siempre. La fuerza y la paciencia pueden ser necesarias en tus actividades. La respuesta que estás buscando es probablemente sí.",
+        "answer":"yes",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/fuerza.png"
+    },
+    {
+        "id": "17",
+        "name":"La Rueda de la Fortuna",
+        "meaning":"La Rueda de la Fortuna habla de suerte, cambios y una nueva dirección para tu vida. Mientras que también muestra altibajos, el sentido general de esta carta es positive ya que indica cambios para mejor y una buena suerte. La respuesta que buscas es sí.",
+        "answer":"yes",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/rueda-de-la-fortuna.png"
+    },
+    {
+        "id": "18",
+        "name":"La Templanza",
+        "meaning":"La carta de la Templanza sugiere intervención divina, equilibrio y armonía. La presencia por lo general positiva de esta carta en tu tirada revela altos niveles de autoconfianza y control en tus emprendimientos. La respuesta que te brinda esta carta es muy probablemente sí.",
+        "answer":"yes",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/templanza.png"
+    },
+    {
+        "id": "19",
+        "name":"La Estrella",
+        "meaning":"La Estrella simboliza la esperanza, la renovación y la belleza. Sugiere un periodo de tranquilidad espiritual, felicidad y oportunidades positivas. El sentido general de esta carta es optimista y sereno. La respuesta que sugiere su presencia es sí.",
+        "answer":"yes",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/la-estrella.png"
+    },
+    {
+        "id": "20",
+        "name":"El Sol",
+        "meaning":"El Sol, al ser el opuesto de la Luna, es una carta llena de vida, alegría y energía. Revela logros positivos, emprendimientos exitosos y en general manifestaciones de buena fortuna en tu vida. Por tal motivo, la respuesta a tu pregunta es sí",
+        "answer":"yes",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/el-sol.png"
+    },
+    {
+        "id": "21",
+        "name":"El Mundo",
+        "meaning":"La carta del Mundo significa que la satisfacción y el éxito se encuentran ya muy cerca. La realización, recompensa, certeza y resultados positivos son todas cosas directamente asociadas con la presencia de esta carta. La respuesta es que probablemente sí.",
+        "answer":"yes",
+        "imgUrl":"https://www.trustedtarot.com/img/cards/es/el-mundo.png"
     }
 ]

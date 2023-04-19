@@ -1,21 +1,21 @@
 function Respuesta({ cartas }) {
   const nuevaTirada = cartas.sort(() => Math.random() - 0.5).slice(0, 3);
-  const recuento = {};
+  const ansCount = {};
   let resTirada;
 
   nuevaTirada.forEach((carta) => {
-    if (recuento[carta.answer]) {
-      recuento[carta.answer]++;
+    if (ansCount[carta.answer]) {
+      ansCount[carta.answer]++;
     } else {
-      recuento[carta.answer] = 1;
+      ansCount[carta.answer] = 1;
     }
   });
 
-  if (recuento.yes >= 2) {
+  if (ansCount.yes >= 2) {
     resTirada = "sí";
-  } else if (recuento.no >= 2) {
+  } else if (ansCount.no >= 2) {
     resTirada = "no";
-  } else {
+  } else if ((ansCount.yes == 1 && ansCount.no == 1) || ansCount.maybe >= 2) {
     resTirada = "tal vez...";
   }
 
@@ -32,7 +32,7 @@ function Respuesta({ cartas }) {
           );
         })}
       </div>
-      {cartas.length > 3 && (
+      {resTirada && (
         <p className="res-tirada">
           La respuesta es <b>{resTirada}</b>
         </p>
