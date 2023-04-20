@@ -27,6 +27,7 @@ body {
   padding: 2px 2px;
   width: 16%;
   min-width: 123px;
+  max-width: 260px;
   height: fit-content;
   border-radius: 10px;
   background: linear-gradient( rgb(177, 15, 15), rgb(32, 32, 32));
@@ -65,7 +66,7 @@ button {
   border-radius: 3px;
   padding: 5px;
   cursor: pointer;
-  margin: 2% auto;
+  margin: 1% auto;
 }
 
 button:hover {
