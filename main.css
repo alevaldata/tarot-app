@@ -43,11 +43,12 @@ body {
 
 .tarot-card p {
   font-size: 0.72rem;
-  padding: 0 8px;
+  margin: 6px;
 }
 
 .tarot-card img {
   width: 100%;
+  margin: -5px;
 }
 
 .res-tirada {
