@@ -1,3 +1,8 @@
+*{
+  /* border: solid; */
+  box-sizing: border-box;
+}
+
 body {
   height: 98vh;
   background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.639) 60%), url("https://static.vecteezy.com/system/resources/previews/008/541/291/non_2x/scary-random-white-tarot-decoration-seamless-pattern-white-object-wallpaper-on-light-blue-vector.jpg");
@@ -11,21 +16,23 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2%;
-  padding: 0 -10px;
-  width: 80%;
+  gap: 0.5%;
+  width: 100%;
 }
 
 .tarot-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5px 10px;
+  padding: 2px 2px;
   width: 16%;
+  min-width: 123px;
   height: fit-content;
   border-radius: 10px;
   background: linear-gradient( rgb(177, 15, 15), rgb(32, 32, 32));
   color: beige;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
 }
 
 .tarot-card h1 {
@@ -35,6 +42,7 @@ body {
 
 .tarot-card p {
   font-size: 0.72rem;
+  padding: 0 8px;
 }
 
 .tarot-card img {
@@ -42,22 +50,22 @@ body {
 }
 
 .res-tirada {
-  font-size: x-large;
+  font-size: larger;
   border-radius: 5px;
-  background-color: rgb(219, 203, 102);
+  background-color: rgb(238, 192, 161);
   width: fit-content;
   margin: 1% auto 0;
   padding: 15px;
 }
 
 button {
-  background-color: rgb(230, 197, 12);
+  background-color: rgb(236, 214, 90);
   border: 1px solid rgb(72, 70, 36);
   font-size: x-large;
   border-radius: 3px;
   padding: 5px;
   cursor: pointer;
-  margin: 1% auto;
+  margin: 2% auto;
 }
 
 button:hover {
