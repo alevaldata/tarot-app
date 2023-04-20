@@ -32,7 +32,7 @@ function Respuesta({ cartas }) {
           );
         })}
       </div>
-      { resTirada ? (<p className="res-tirada">La respuesta es <b>{resTirada}</b></p>) : <p className="res-tirada">Piensa tu pregunta...</p>}
+      { resTirada ? (<p className="res-tirada">La respuesta es <b>{resTirada}</b></p>) : <p className="res-tirada">Piensa una pregunta de sí/no</p>}
     </>
   );
 }
