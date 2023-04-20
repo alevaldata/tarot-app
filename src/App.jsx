@@ -1,4 +1,3 @@
-import React from 'react'
 import TiradaTarot from './components/TiradaTarot'
 import "./App.css";
 
