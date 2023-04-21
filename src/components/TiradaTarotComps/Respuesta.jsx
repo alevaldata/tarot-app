@@ -1,7 +1,7 @@
 function Respuesta({ cartas }) {
+  /* contar respuestas */
   const ansCount = {};
 
-  /* contar respuestas */
   cartas.forEach((carta) => {
     if (ansCount[carta.answer]) {
       ansCount[carta.answer]++;
@@ -10,14 +10,16 @@ function Respuesta({ cartas }) {
     }
   });
 
-  let resTirada;
   /* determinar respuesta de tirada */
+  const respuestas = { yes: "sí", no: "no", maybe: "tal vez..." };
+  let resTirada;
+
   if (ansCount.yes >= 2) {
-    resTirada = "sí";
+    resTirada = respuestas.yes;
   } else if (ansCount.no >= 2) {
-    resTirada = "no";
+    resTirada = respuestas.no;
   } else if ((ansCount.yes == 1 && ansCount.no == 1) || ansCount.maybe >= 2) {
-    resTirada = "tal vez...";
+    resTirada = respuestas.maybe;
   }
 
   /* estilo condicional segun respuesta */
@@ -25,11 +27,11 @@ function Respuesta({ cartas }) {
     background: "",
   };
 
-  if (resTirada == "sí") {
+  if (resTirada == respuestas.yes) {
     resBgColor.background = "lawngreen";
-  } else if (resTirada == "no") {
+  } else if (resTirada == respuestas.no) {
     resBgColor.background = "rgb(255, 24, 24)";
-  } else if (resTirada == "tal vez...") {
+  } else if (resTirada == respuestas.maybe) {
     resBgColor.background = "gold";
   }
 
