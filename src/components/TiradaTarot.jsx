@@ -1,6 +1,7 @@
-import { useEffect, useState } from "react";
-import Respuesta from "./Respuesta";
+import { useState } from "react";
 import data from "../data/tarot-cards.json";
+import TarotCard from "./TiradaTarotComps/TarotCard";
+import Respuesta from "./TiradaTarotComps/Respuesta";
 
 const dorso_img_url = "https://lainfo.es/tarot-si-no/dorso-carta.jpg";
 
@@ -11,26 +12,26 @@ function TiradaTarot() {
     { id: "2", imgUrl: dorso_img_url },
   ]);
 
-  /* traer datos de cartas para tirar */
+  /* obtener data necesaria del json */
   function handleClick() {
-
-    /* fetch no funciona en gh-pages
-    fetch("src/data/tarot-cards.json")
+    /* fetch no funciona en gh-pages */
+    /* fetch("src/data/tarot-cards.json")
       .then((res) => res.json())
       .then((data) => {
-        setCartas(data);
+        setCartas(data.sort(() => Math.random() - 0.5).slice(0, 3));
       })
-      .catch((err) => console.error(err)); */
+      .catch((err) => console.log(err)); */
 
-    /* importar json y usar Spread para generar nuevo array */
-    setCartas([...data]);
+    /* actualizar estado con 3 cartas random */
+    setCartas(data.sort(() => Math.random() - 0.5).slice(0, 3));
   }
 
   return (
-    <main>
+    <>
       <button onClick={handleClick}>Tirar cartas</button>
+      <TarotCard cartas={cartas} />
       <Respuesta cartas={cartas} />
-    </main>
+    </>
   );
 }
 
