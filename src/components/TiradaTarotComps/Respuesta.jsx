@@ -1,17 +1,17 @@
 function Respuesta({ cartas }) {
+  const ansCount = {};
 
-  const ansCount = {}
-
+  /* contar respuestas */
   cartas.forEach((carta) => {
     if (ansCount[carta.answer]) {
-      ansCount[carta.answer]++
+      ansCount[carta.answer]++;
     } else {
       ansCount[carta.answer] = 1;
     }
   });
 
   let resTirada;
-
+  /* determinar respuesta de tirada */
   if (ansCount.yes >= 2) {
     resTirada = "sí";
   } else if (ansCount.no >= 2) {
@@ -20,10 +20,23 @@ function Respuesta({ cartas }) {
     resTirada = "tal vez...";
   }
 
+  /* estilo condicional segun respuesta */
+  const resBgColor = {
+    background: "",
+  };
+
+  if (resTirada == "sí") {
+    resBgColor.background = "lawngreen";
+  } else if (resTirada == "no") {
+    resBgColor.background = "rgb(255, 24, 24)";
+  } else if (resTirada == "tal vez...") {
+    resBgColor.background = "gold";
+  }
+
   return (
     <>
       {resTirada ? (
-        <p className="res-tirada">
+        <p className="res-tirada" style={resBgColor}>
           La respuesta es <b>{resTirada}</b>
         </p>
       ) : (
